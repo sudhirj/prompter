@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 gem 'rails-api'
-
+gem "redis"
+gem "hiredis"
+gem "msgpack"
 
 
 # To use ActiveModel has_secure_password
