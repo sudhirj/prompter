@@ -6,6 +6,6 @@ module Scorer
   		(1..str.length).map do |len|
   			str.slice 0, len
   		end
-  	end
+  	end.to_set
   end
 end

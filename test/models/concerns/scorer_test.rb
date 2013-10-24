@@ -9,7 +9,7 @@ class ScorerTest < ActiveModel::TestCase
 	test "tokenization" do
 		sc = ExampleScorer.new
 		tokens = sc.tokenize ['abc', 'xyz']
-		assert_equal ['a', 'ab', 'abc', 'x', 'xy', 'xyz'], tokens
+		assert_equal ['a', 'ab', 'abc', 'x', 'xy', 'xyz'].to_set, tokens
 	end
 
 
