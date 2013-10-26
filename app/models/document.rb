@@ -40,4 +40,5 @@ class Document
 		Redis.new
 	end
 
+
 end

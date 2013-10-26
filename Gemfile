@@ -23,3 +23,11 @@ gem "msgpack"
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+
+group :development do
+	gem 'guard-minitest'
+	gem 'growl'
+	gem 'turn'
+	gem 'rb-fsevent'
+end
